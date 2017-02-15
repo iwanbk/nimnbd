@@ -1,0 +1,14 @@
+const
+  NBD_MAGIC*                  = 0x4e42444d41474943
+  NBD_REQUEST_MAGIC*          = 0x25609513
+  NBD_REPLY_MAGIC*            = 0x67446698
+  NBD_CLISERV_MAGIC*          = 0x00420281861253
+  NBD_OPTS_MAGIC*             = 0x49484156454F5054
+  NBD_REP_MAGIC*              = 0x3e889045565a9
+  NBD_STRUCTURED_REPLY_MAGIC* = 0x668e33ef
+  
+  #NBD hanshake flags
+  NBD_FLAG_FIXED_NEWSTYLE* = 1 shl 0
+  NBD_FLAG_NO_ZEROES*      = 1 shl 1
+
+
